@@ -18,7 +18,7 @@
     & .content {
       opacity: 0.9;
     }
-  } 
+  }
 
   &.large {
     height: 380px;
@@ -36,6 +36,7 @@
     width: 100%;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
   }
 
   .content {
@@ -62,4 +63,9 @@
       font-size: 16px;
     }
   }
+}
+
+.background-image {
+  background-size: cover;
+  background-position: center;
 }
